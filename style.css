@@ -42,7 +42,11 @@ button:hover {
 
 button:active {
   transform: scale(0.98);
-  transition: transform 0.2s ease-out;
+}
+
+button:disabled {
+  cursor: default;
+  filter: brightness(30%);
 }
 
 /* Media Query: Tablet or Smaller */
