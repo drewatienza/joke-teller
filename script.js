@@ -25,7 +25,7 @@ const tellMe = joke => {
 // Get Jokes from Joke API
 const getJokes = async () => {
   let joke = ''
-  const apiUrl = 'https://sv443.net/jokeapi/v2/joke/Programming,Christmas';
+  const apiUrl = 'https://sv443.net/jokeapi/v2/joke/Programming,Miscellaneous,Pun,Spooky,Christmas';
 
   try{
     const response = await fetch(apiUrl);
